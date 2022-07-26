@@ -1,5 +1,5 @@
 // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
-let massif = ['art', 'tranquillity', 'paradise', 'hope', 'honey', 'fabulous', 'glory', 135 , 232, 321,];
+let massif = ['art', 'tranquillity', 'paradise', 'hope', 'honey', 'fabulous', 'glory', 135 , 232, 321];
 console.log(massif[0]);
 console.log(massif[1]);
 console.log(massif[2]);
