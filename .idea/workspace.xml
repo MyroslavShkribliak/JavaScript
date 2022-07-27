@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9b49994-8a57-4ad9-9d28-f643598cb5cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 2/hw/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 2/hw/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 2/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +32,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "js.last.introduce.type": "LET",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;LET&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaScript\Lesson 2" />
+      <recent name="D:\JavaScript" />
       <recent name="D:\JavaScript\lesson 2\hw" />
     </key>
   </component>
@@ -59,10 +61,34 @@
       <option name="presentableId" value="Default" />
       <updated>1658863271120</updated>
       <workItem from="1658863273739" duration="7330000" />
+      <workItem from="1658870702146" duration="154000" />
+      <workItem from="1658870899870" duration="64000" />
+      <workItem from="1658871011444" duration="228000" />
+      <workItem from="1658871923452" duration="762000" />
     </task>
+    <task id="LOCAL-00001" summary="S">
+      <created>1658870738260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658870738260</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1658871100297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658871100297</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="S" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
