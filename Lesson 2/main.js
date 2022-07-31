@@ -36,43 +36,86 @@ let book4 = {
     title: 'Енеїда',
     pageCount: 440,
     genre: 'бурлеск, травестія, поема',
-    authors: 'Іван Котляревський'
+    authors: [
+        {
+            name:'Іван Котляревський',
+            age: 69
+        }
+
+    ]
 };
 console.log(book4);
 let book5 = {
     title: 'Камінний хрест',
     pageCount: 572,
     genre: 'Драма',
-    authors: 'Василь Стефаник'
+    authors: [
+        {
+            name:'Василь Стефаник',
+            age: 65
+        }
+    ]
 };
 console.log(book5);
 let book6 = {
     title: 'Тіні забутих предків',
     pageCount: 192,
     genre:'Фікшн',
-    authors: 'Михайло Коцюбинський'
+    authors: [
+        {
+            name:'Михайло Коцюбинський',
+            age: 49
+        }
+    ]
 };
 console.log(book6);
-
-let author = [
-    {name:'Іван Котляревський ', age: 69},
-    {name:'Василь Стефаник', age: 65},
-    {name:'Михайло Коцюбинський', age: 49}
-];
-console.log(author);
-
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача\
 let massif2 = [
-    {name: 'Василь', username: 'user1', password: 112233445},
-    {name: 'Коля', username: 'user2', password: 544332211},
-    {name: 'Іван', username: 'user3', password: 986589532},
-    {name: 'Влад', username: 'user4', password: 345678654},
-    {name: 'Артем', username: 'user5', password: 323456743},
-    {name: 'Юля', username: 'user6', password: 876567890},
-    {name: 'Катя', username: 'user7', password: 987656789},
-    {name: 'Ліана', username: 'user8', password: 456765432},
-    {name: 'Ольга', username: 'user9', password: 125784631},
-    {name: 'Інеса', username: 'user10', password: 765432356}
+    {
+        name: 'Василь',
+        username: 'user1',
+        password: 112233445
+    },
+    {
+        name: 'Коля',
+        username: 'user2',
+        password: 544332211
+    },
+    {
+        name: 'Іван',
+        username: 'user3',
+        password: 986589532
+    },
+    {
+        name: 'Влад',
+        username: 'user4',
+        password: 345678654
+    },
+    {
+        name: 'Артем',
+        username: 'user5',
+        password: 323456743
+    },
+    {       name: 'Юля',
+        username: 'user6',
+        password: 876567890
+    },
+    {   name: 'Катя',
+        username: 'user7',
+        password: 987656789
+    },
+    {   name: 'Ліана',
+        username: 'user8',
+        password: 456765432
+    },
+    {   name: 'Ольга',
+        username: 'user9',
+        password: 125784631
+    },
+    {   name: 'Інеса',
+        username: 'user10',
+        password: 765432356
+    }
 ];
 console.log(massif2[0].password);
 console.log(massif2[1].password);
