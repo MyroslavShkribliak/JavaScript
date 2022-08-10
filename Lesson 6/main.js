@@ -59,11 +59,17 @@ console.log(arr);
 // sortNums(nums,'ascending') // [3,11,21]
 // sortNums(nums,'descending') // [21,11,3]
 
-// let nums = [11,21,3];
-// let sortNums = (direction) => nums.sort((a, b)=> a -b)
-// // console.log(sortNums(nums))
-// let sortNums1 = (direction) => nums.sort((a, b)=> b -a)
-// console.log(sortNums1(nums))
+let nums = [11,21,3];
+let sortNums = (direction1) => {
+    nums.sort((a, b)=> a -b)
+    return direction1
+};
+console.log(sortNums(nums));
+let sortNums1 = (direction) => {
+    nums.sort((a, b)=> b -a)
+    return direction
+}
+console.log(sortNums1(nums));
 
 // - є масив
 
