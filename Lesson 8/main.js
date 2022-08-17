@@ -1,88 +1,88 @@
 // - Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
 // створити пустий масив, наповнити його 10 об'єктами new User(....)
 
-// function User(id, name, surname, email, phone) {
-//     this.id = id
-//     this.name = name;
-//     this.surname = surname;
-//     this.email = email;
-//     this.phone = phone;
-// }
-// const user = []
-// user.push(new User(1, 'user1', 'user_1', 'user1@gmail.com', 111));
-// user.push(new User(2, 'user2', 'user_2', 'user2@gmail.com', 222));
-// user.push(new User(3, 'user3', 'user_3', 'user3@gmail.com', 333));
-// user.push(new User(4, 'user4', 'user_4', 'user4@gmail.com', 444));
-// user.push(new User(5, 'user5', 'user_5', 'user5@gmail.com', 555));
-// user.push(new User(6, 'user6', 'user_6', 'user6@gmail.com', 686));
-// user.push(new User(7, 'user7', 'user_7', 'user7@gmail.com', 777));
-// user.push(new User(8, 'user8', 'user_8', 'user8@gmail.com', 888));
-// user.push(new User(9, 'user9', 'user_9', 'user9@gmail.com', 999));
-// user.push(new User(10, 'user10', 'user_10', 'user10@gmail.com', 1010));
-// console.log(user)
+function User(id, name, surname, email, phone) {
+    this.id = id
+    this.name = name;
+    this.surname = surname;
+    this.email = email;
+    this.phone = phone;
+}
+const user = []
+user.push(new User(1, 'user1', 'user_1', 'user1@gmail.com', 111));
+user.push(new User(2, 'user2', 'user_2', 'user2@gmail.com', 222));
+user.push(new User(3, 'user3', 'user_3', 'user3@gmail.com', 333));
+user.push(new User(4, 'user4', 'user_4', 'user4@gmail.com', 444));
+user.push(new User(5, 'user5', 'user_5', 'user5@gmail.com', 555));
+user.push(new User(6, 'user6', 'user_6', 'user6@gmail.com', 686));
+user.push(new User(7, 'user7', 'user_7', 'user7@gmail.com', 777));
+user.push(new User(8, 'user8', 'user_8', 'user8@gmail.com', 888));
+user.push(new User(9, 'user9', 'user_9', 'user9@gmail.com', 999));
+user.push(new User(10, 'user10', 'user_10', 'user10@gmail.com', 1010));
+console.log(user)
 
 // - Взяти масив з  User[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
 //
-// let users5 = [
-//     {id: 1, name: 'petya', age: 30},
-//     {id: 2, name: 'kolya', age: 29},
-//     {id: 3, name: 'olha', age: 28},
-//     {id: 4, name: 'max', age: 30},
-//     {id: 5, name: 'anya', age: 31},
-//     {id: 6, name: 'Jak', age: 32},
-// ];
-// let filter = users5.filter(value => !(value.id % 2));
-// console.log(filter);
+let users5 = [
+    {id: 1, name: 'petya', age: 30},
+    {id: 2, name: 'kolya', age: 29},
+    {id: 3, name: 'olha', age: 28},
+    {id: 4, name: 'max', age: 30},
+    {id: 5, name: 'anya', age: 31},
+    {id: 6, name: 'Jak', age: 32},
+];
+let filter = users5.filter(value => !(value.id % 2));
+console.log(filter);
 
 // - Взяти масив з  User[] з попереднього завдання, та відсортувати його по id. по зростанню (sort)
-//
-// let users = [
-//     {id: 3, name: 'petya', age: 30},
-//     {id: 2, name: 'kolya', age: 29},
-//     {id: 1, name: 'olha', age: 28},
-//     {id: 4, name: 'max', age: 30},
-//     {id: 5, name: 'anya', age: 31},
-//     {id: 6, name: 'Jak', age: 32},
-// ];
-//
-// let sort6 = users.sort((a ,b) => {
-//     if (a.id > b.id){
-//         return 1;
-//     }
-//     if (a.id < b.id ){
-//         return -1;
-//     }
-//     if (a.id === a.id){
-//         return 1
-//     }
-// });
-// console.log(sort6);
+
+let users = [
+    {id: 3, name: 'petya', age: 30},
+    {id: 2, name: 'kolya', age: 29},
+    {id: 1, name: 'olha', age: 28},
+    {id: 4, name: 'max', age: 30},
+    {id: 5, name: 'anya', age: 31},
+    {id: 6, name: 'Jak', age: 32},
+];
+
+let sort6 = users.sort((a ,b) => {
+    if (a.id > b.id){
+        return 1;
+    }
+    if (a.id < b.id ){
+        return -1;
+    }
+    if (a.id === a.id){
+        return 1
+    }
+});
+console.log(sort6);
 
 // - створити класс для об'єктів Client з полями id, name, surname , email, phone, order (поле є масивом зі списком товарів)
 // створити пустий масив, наповнити його 10 об'єктами
-// class Client{
-//
-//
-//     constructor(id, name, surname, phone, order) {
-//         this.id = id;
-//         this.name = name;
-//         this.surname = surname;
-//         this.phone = phone;
-//         this.order = order;
-//     }
-// }
-// const Client1 = []
-// const construct = Client1.push(new Client(1,'Petya','Pupkin','06653325978', ['battery','candle','envelopes','needle', 'pen', 'toothpaste','pencil', 'glue','soap', 'fuse']))
-// Client1.push(new Client(2,'Viktoria','Koloskin','06657778963', ['battery','candle','envelopes','needle', 'pen']))
-// Client1.push(new Client(3,'Vitia','fdgdfgdgdfdf','0556332878',['battery','candle','envelopes', 'needle']))
-// Client1.push(new Client(4,'Serhij','Jurawlew','055632478',['battery','candle']))
-// Client1.push(new Client(5,'Oleksandr','Petrov','6445332879',['battery','candle','envelopes','needle']))
-// Client1.push(new Client(6,'Sviatoslav','Neznaju','522364780',['battery','candle','envelopes','needle', 'pen', 'toothpaste']))
-// Client1.push(new Client(7,'Volodya','Voloshin','066332487',['battery','candle','envelopes']))
-// Client1.push(new Client(8,'Vasya','dsfsdf','0554112368',['battery','candle','envelopes','needle', 'pen', 'toothpaste','pencil']))
-// Client1.push(new Client(9,'Kokos','koks','0445887213',['battery','soap']))
-// Client1.push(new Client(10,'Anya','dfdkss','077896452', ['battery']))
-// console.log(Client1)
+class Client{
+
+
+    constructor(id, name, surname, phone, order) {
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.phone = phone;
+        this.order = order;
+    }
+}
+const Client1 = []
+const construct = Client1.push(new Client(1,'Petya','Pupkin','06653325978', ['battery','candle','envelopes','needle', 'pen', 'toothpaste','pencil', 'glue','soap', 'fuse']))
+Client1.push(new Client(2,'Viktoria','Koloskin','06657778963', ['battery','candle','envelopes','needle', 'pen']))
+Client1.push(new Client(3,'Vitia','fdgdfgdgdfdf','0556332878',['battery','candle','envelopes', 'needle']))
+Client1.push(new Client(4,'Serhij','Jurawlew','055632478',['battery','candle']))
+Client1.push(new Client(5,'Oleksandr','Petrov','6445332879',['battery','candle','envelopes','needle']))
+Client1.push(new Client(6,'Sviatoslav','Neznaju','522364780',['battery','candle','envelopes','needle', 'pen', 'toothpaste']))
+Client1.push(new Client(7,'Volodya','Voloshin','066332487',['battery','candle','envelopes']))
+Client1.push(new Client(8,'Vasya','dsfsdf','0554112368',['battery','candle','envelopes','needle', 'pen', 'toothpaste','pencil']))
+Client1.push(new Client(9,'Kokos','koks','0445887213',['battery','soap']))
+Client1.push(new Client(10,'Anya','dfdkss','077896452', ['battery']))
+console.log(Client1)
 // - Взяти масив (Client [] з попереднього завдання).Відсортувати його по кількості товарів в полі order по зростанню. (sort)
 // const Client1 = []
 // Client1.push(new Client(1,'Petya','Pupkin','06653325978', ['battery','candle','envelopes','needle', 'pen', 'toothpaste','pencil', 'glue','soap', 'fuse']))
