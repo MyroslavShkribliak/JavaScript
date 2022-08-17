@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b49994-8a57-4ad9-9d28-f643598cb5cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson 6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 6/main.js" afterDir="false" />
+    <list default="true" id="b9b49994-8a57-4ad9-9d28-f643598cb5cf" name="Changes" comment="Initial Сommit">
+      <change afterPath="$PROJECT_DIR$/Lesson 8/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 8/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 5/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 5/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 6/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -38,30 +39,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "js.last.introduce.type": "LET",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;LET&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaScript/Lesson 8/main.js&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JavaScript\Lesson 2" />
       <recent name="D:\JavaScript" />
       <recent name="D:\JavaScript\lesson 2\hw" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" path-to-node="node">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.js" type="NodeJSConfigurationType" path-to-node="node" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/Lesson 6">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -123,7 +133,29 @@
       <workItem from="1659993674071" duration="16000" />
       <workItem from="1660029463535" duration="270000" />
       <workItem from="1660069162603" duration="5509000" />
-      <workItem from="1660119905753" duration="14986000" />
+      <workItem from="1660119905753" duration="15257000" />
+      <workItem from="1660151371077" duration="16000" />
+      <workItem from="1660152406174" duration="20000" />
+      <workItem from="1660152481589" duration="25000" />
+      <workItem from="1660154896574" duration="83000" />
+      <workItem from="1660216556849" duration="281000" />
+      <workItem from="1660308650573" duration="11000" />
+      <workItem from="1660325399548" duration="23000" />
+      <workItem from="1660333997020" duration="189000" />
+      <workItem from="1660559116079" duration="338000" />
+      <workItem from="1660564624091" duration="452000" />
+      <workItem from="1660565098890" duration="683000" />
+      <workItem from="1660565806497" duration="969000" />
+      <workItem from="1660566806065" duration="133000" />
+      <workItem from="1660566964674" duration="216000" />
+      <workItem from="1660675067909" duration="273000" />
+      <workItem from="1660676535172" duration="3427000" />
+      <workItem from="1660681502158" duration="148000" />
+      <workItem from="1660681814833" duration="6000" />
+      <workItem from="1660681979743" duration="3767000" />
+      <workItem from="1660686904471" duration="30000" />
+      <workItem from="1660725703864" duration="7399000" />
+      <workItem from="1660744726465" duration="6749000" />
     </task>
     <task id="LOCAL-00001" summary="S">
       <created>1658870738260</created>
@@ -188,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659985150119</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Initial Сommit">
+      <created>1660150370697</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660150370697</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Initial Сommit">
+      <created>1660150605503</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660150605503</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
