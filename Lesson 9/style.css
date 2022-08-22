@@ -1,0 +1,27 @@
+.www{
+    width: 1000px;
+    height: 350px;
+    border: 1px solid red;
+}
+.xxx{
+    margin: 10px;
+    display: flex;
+    border: 1px solid black;
+
+}
+.target{
+    margin: 10px;
+    border: 1px solid black;
+}
+.ccc{
+    margin: 10px;
+    border: 1px solid black;
+}
+.qqq{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px;
+}

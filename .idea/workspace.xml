@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b49994-8a57-4ad9-9d28-f643598cb5cf" name="Changes" comment="" />
+    <list default="true" id="b9b49994-8a57-4ad9-9d28-f643598cb5cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Lesson 9/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 9/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 9/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 9/template1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 5/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 5/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 8/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +58,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -64,9 +72,17 @@
     <configuration default="true" type="NodeJSConfigurationType" path-to-node="node">
       <method v="2" />
     </configuration>
-    <configuration name="main.js" type="NodeJSConfigurationType" path-to-node="node" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/Lesson 6">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" path-to-node="node" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/Lesson 9">
       <method v="2" />
     </configuration>
+    <configuration name="main.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/Lesson 6">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.main.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -151,6 +167,87 @@
       <workItem from="1660686904471" duration="30000" />
       <workItem from="1660725703864" duration="7399000" />
       <workItem from="1660744726465" duration="6774000" />
+      <workItem from="1660753231837" duration="72000" />
+      <workItem from="1660754613710" duration="39000" />
+      <workItem from="1660756393039" duration="16000" />
+      <workItem from="1660757134667" duration="15000" />
+      <workItem from="1660757287938" duration="24000" />
+      <workItem from="1660757691865" duration="22000" />
+      <workItem from="1660758769221" duration="34000" />
+      <workItem from="1660759003536" duration="12000" />
+      <workItem from="1660759131098" duration="62000" />
+      <workItem from="1660768962028" duration="2000" />
+      <workItem from="1660815764943" duration="4000" />
+      <workItem from="1660826359544" duration="6000" />
+      <workItem from="1660826813402" duration="25000" />
+      <workItem from="1660829180486" duration="11000" />
+      <workItem from="1660829560586" duration="8000" />
+      <workItem from="1660829673327" duration="5000" />
+      <workItem from="1660829888188" duration="5000" />
+      <workItem from="1660829997295" duration="20000" />
+      <workItem from="1660831735572" duration="7000" />
+      <workItem from="1660831806847" duration="8000" />
+      <workItem from="1660831909491" duration="19000" />
+      <workItem from="1660832228318" duration="14000" />
+      <workItem from="1660832504959" duration="37000" />
+      <workItem from="1660832570809" duration="243000" />
+      <workItem from="1660834666587" duration="74000" />
+      <workItem from="1660838525217" duration="313000" />
+      <workItem from="1660838975409" duration="13000" />
+      <workItem from="1660851815316" duration="44000" />
+      <workItem from="1660851882387" duration="139000" />
+      <workItem from="1660852045525" duration="151000" />
+      <workItem from="1660852217158" duration="54000" />
+      <workItem from="1660852296459" duration="245000" />
+      <workItem from="1660852569584" duration="188000" />
+      <workItem from="1660852779266" duration="203000" />
+      <workItem from="1660853006776" duration="66000" />
+      <workItem from="1660853090462" duration="166000" />
+      <workItem from="1660853279380" duration="282000" />
+      <workItem from="1660853585966" duration="69000" />
+      <workItem from="1660853692821" duration="163000" />
+      <workItem from="1660854184284" duration="1123000" />
+      <workItem from="1660855347647" duration="97000" />
+      <workItem from="1660855471574" duration="199000" />
+      <workItem from="1660901326314" duration="929000" />
+      <workItem from="1660902324863" duration="8000" />
+      <workItem from="1660905388626" duration="42000" />
+      <workItem from="1660905843954" duration="31000" />
+      <workItem from="1660906148072" duration="10000" />
+      <workItem from="1660906560306" duration="38000" />
+      <workItem from="1660907024650" duration="387000" />
+      <workItem from="1660915403183" duration="27000" />
+      <workItem from="1660915460460" duration="7000" />
+      <workItem from="1660915525470" duration="9000" />
+      <workItem from="1660915668976" duration="15000" />
+      <workItem from="1660915754824" duration="60000" />
+      <workItem from="1660915887984" duration="5000" />
+      <workItem from="1660915989393" duration="8000" />
+      <workItem from="1660923003912" duration="22000" />
+      <workItem from="1660923100548" duration="19000" />
+      <workItem from="1660923986213" duration="13000" />
+      <workItem from="1660924050755" duration="12000" />
+      <workItem from="1660924169505" duration="12000" />
+      <workItem from="1660924644698" duration="8000" />
+      <workItem from="1660924741088" duration="21000" />
+      <workItem from="1660925696235" duration="29000" />
+      <workItem from="1660925751543" duration="6000" />
+      <workItem from="1660925836835" duration="278000" />
+      <workItem from="1660926720177" duration="23000" />
+      <workItem from="1660926817621" duration="29000" />
+      <workItem from="1660928762489" duration="67000" />
+      <workItem from="1660929273797" duration="50000" />
+      <workItem from="1660998809404" duration="365000" />
+      <workItem from="1660999213118" duration="28000" />
+      <workItem from="1660999340931" duration="1247000" />
+      <workItem from="1661000663673" duration="25000" />
+      <workItem from="1661002029584" duration="486000" />
+      <workItem from="1661002576966" duration="477000" />
+      <workItem from="1661009770730" duration="6000" />
+      <workItem from="1661026551280" duration="3284000" />
+      <workItem from="1661101525027" duration="2542000" />
+      <workItem from="1661105876866" duration="24000" />
+      <workItem from="1661173146602" duration="2037000" />
     </task>
     <task id="LOCAL-00001" summary="S">
       <created>1658870738260</created>
@@ -236,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660751548194</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Initial Сommit">
+      <created>1660753285801</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660753285801</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

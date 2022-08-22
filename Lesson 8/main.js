@@ -72,7 +72,7 @@ class Client{
     }
 }
 const Client1 = []
-const construct = Client1.push(new Client(1,'Petya','Pupkin','06653325978', ['battery','candle','envelopes','needle', 'pen', 'toothpaste','pencil', 'glue','soap', 'fuse']))
+Client1.push(new Client(1,'Petya','Pupkin','06653325978', ['battery','candle','envelopes','needle', 'pen', 'toothpaste','pencil', 'glue','soap', 'fuse']))
 Client1.push(new Client(2,'Viktoria','Koloskin','06657778963', ['battery','candle','envelopes','needle', 'pen']))
 Client1.push(new Client(3,'Vitia','fdgdfgdgdfdf','0556332878',['battery','candle','envelopes', 'needle']))
 Client1.push(new Client(4,'Serhij','Jurawlew','055632478',['battery','candle']))
@@ -236,7 +236,7 @@ for (const Popelushka of arr) {
     }
 }
 const para = arr.find((value) => {
-    if (value.name === prince1.size){
+    if (value.size === prince1.size){
     }
     return value;
 })
