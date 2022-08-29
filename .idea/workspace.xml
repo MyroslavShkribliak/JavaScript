@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b49994-8a57-4ad9-9d28-f643598cb5cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson 9/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 9/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 9/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 9/template1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/main2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/user-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/user-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 5/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 5/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 8/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 9/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 9/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;js.last.introduce.type&quot;: &quot;LET&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/JavaScript/Lesson 8/main.js&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -63,6 +67,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaScript\mini-project" />
+      <recent name="D:\JavaScript\mini-project\user" />
       <recent name="D:\JavaScript\Lesson 2" />
       <recent name="D:\JavaScript" />
       <recent name="D:\JavaScript\lesson 2\hw" />
@@ -247,7 +253,28 @@
       <workItem from="1661026551280" duration="3284000" />
       <workItem from="1661101525027" duration="2542000" />
       <workItem from="1661105876866" duration="24000" />
-      <workItem from="1661173146602" duration="2037000" />
+      <workItem from="1661173146602" duration="2325000" />
+      <workItem from="1661188148792" duration="28000" />
+      <workItem from="1661190191795" duration="2727000" />
+      <workItem from="1661267667589" duration="1465000" />
+      <workItem from="1661269717222" duration="1192000" />
+      <workItem from="1661270990267" duration="953000" />
+      <workItem from="1661272121759" duration="430000" />
+      <workItem from="1661277418193" duration="4621000" />
+      <workItem from="1661282787759" duration="1354000" />
+      <workItem from="1661284534189" duration="1012000" />
+      <workItem from="1661336022536" duration="2945000" />
+      <workItem from="1661339234001" duration="2151000" />
+      <workItem from="1661343228041" duration="4956000" />
+      <workItem from="1661352302119" duration="4816000" />
+      <workItem from="1661360375070" duration="2354000" />
+      <workItem from="1661362928236" duration="1100000" />
+      <workItem from="1661533793696" duration="23000" />
+      <workItem from="1661535455753" duration="6670000" />
+      <workItem from="1661542258982" duration="447000" />
+      <workItem from="1661593903494" duration="2615000" />
+      <workItem from="1661596773860" duration="38000" />
+      <workItem from="1661754732263" duration="2982000" />
     </task>
     <task id="LOCAL-00001" summary="S">
       <created>1658870738260</created>
@@ -340,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660753285801</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Initial Сommit">
+      <created>1661175438634</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661175438634</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

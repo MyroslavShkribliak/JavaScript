@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.user {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.userInfo {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightskyblue;
+    gap: 5%;
+}
+
+.userInfo > p {
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    margin-top: 2%;
+
+    color: black;
+}
+
+.getComments {
+    width: 100%;
+    height: 100px;
+    margin-top: 1%;
+}
+.posts {
+    width: 1250px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+
+}
+
+
+.post {
+    border: 1px solid black;
+    width: 15%;
+    margin-top: 5%;
+    flex-grow: 1;
+    background: silver;
+}
+.userAddress{
+    width: 150px;
+    height: 150px;
+    background: blanchedalmond;
+    margin-top: 1%;
+}
+.userCompany{
+    margin-top: 1%;
+    background: blanchedalmond;
+}

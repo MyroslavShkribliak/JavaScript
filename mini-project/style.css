@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 500px;
+    margin: auto;
+}
+.users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    border: 1px solid black;
+}
+.users__user{
+    width: 40%;
+    margin: 4%;
+    border: 1px solid black;
+    padding: 4%;
+}

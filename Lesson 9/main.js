@@ -200,14 +200,14 @@ for (const main of xxx) {
 //
 // // - Є масив
 //
-let coursesAndDurationArray = [
-    {title: 'JavaScript Complex', monthDuration: 5},
-    {title: 'Java Complex', monthDuration: 6},
-    {title: 'Python Complex', monthDuration: 6},
-    {title: 'QA Complex', monthDuration: 4},
-    {title: 'FullStack', monthDuration: 7},
-    {title: 'Frontend', monthDuration: 4}
-];
+// let coursesAndDurationArray = [
+//     {title: 'JavaScript Complex', monthDuration: 5},
+//     {title: 'Java Complex', monthDuration: 6},
+//     {title: 'Python Complex', monthDuration: 6},
+//     {title: 'QA Complex', monthDuration: 4},
+//     {title: 'FullStack', monthDuration: 7},
+//     {title: 'Frontend', monthDuration: 4}
+// ];
 
 // Для кожного елементу масиву зробити блок в якому вивести інформацію про title та monthDuration
 // Завдання робити через цикли.
@@ -230,8 +230,8 @@ for (const construct of coursesAndDurationArray) {
 //     {title: 'Frontend', monthDuration: 4}
 // ];
 
-// За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
-//     Завдання робити через цикли.
+//За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
+//    Завдання робити через цикли.
 
 for (const courses of coursesAndDurationArray) {
     let divElement = document.createElement('div');
@@ -241,6 +241,7 @@ for (const courses of coursesAndDurationArray) {
     h1.innerText = courses.title;
 
     let p = document.createElement('p');
+    h1.classList.add('description')
     p.innerText = courses.monthDuration;
 
 
@@ -286,3 +287,38 @@ let form1 = document.forms.xxx
 //*** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 //    При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 //(Додатковачастина для завдання)
+
+const htmlInputElement1 = document.createElement('input');
+htmlInputElement1.setAttribute('placeholder', 'Enter name');
+const htmlInputElement2 = document.createElement('input');
+const htmlInputElement3 = document.createElement('input');
+
+const htmlButtonElement = document.createElement('button');
+htmlButtonElement.innerText = 'click'
+
+document.body.append(htmlInputElement1,htmlInputElement2,htmlInputElement3, htmlButtonElement);
+
+htmlButtonElement.addEventListener('click' , function() {
+    const input1 = htmlInputElement1.value;
+    const input2 = htmlInputElement2.value;
+    const input3 = htmlInputElement3.value;
+
+    let generator = (tr, td, text) => {
+
+
+        const htmlTableElement = document.createElement('table');
+        document.body.appendChild(htmlTableElement);
+
+        for (let i = 0; i < tr; i++) {
+            const tr = document.createElement('tr');
+            htmlTableElement.appendChild(tr);
+
+            for (let j = 0; j < td; j++) {
+                const td = document.createElement('td');
+                td.innerText = `${text}`;
+                tr.appendChild(td);
+            }
+        }
+    }
+    generator(input1,input2,input3)
+})
